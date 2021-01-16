@@ -3,6 +3,7 @@ from selenium.webdriver.support.ui import Select
 import time
 import math
 
+
 def calc(x):
   return str(math.log(abs(12*math.sin(int(x)))))
 
